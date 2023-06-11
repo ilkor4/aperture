@@ -1,0 +1,11 @@
+/* Стили для компонента одежда */
+
+.cards {
+  display: grid;
+  margin: 0 auto;
+  grid-template-rows: 576px 576px;
+  grid-template-columns: 600px 600px ;
+  column-gap: 16px;
+  row-gap: 16px;
+  font-family: var(--font-family);
+}

@@ -1,3 +1,5 @@
+/* Основной компонент приложения - исходная страница */
+
 import { Route, Routes } from 'react-router-dom';
 import Header from './Header';
 import Main from './Main';

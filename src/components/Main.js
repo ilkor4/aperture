@@ -1,7 +1,16 @@
+/* Компонент main - содержит в себе все содержимое страницы */
+
+import Lead from './Lead';
+import Clothes from './Clothes';
+import '../styles/Main.css';
+
 export default function Main() {
   return(
     <main className="content">
-      <h3>hjn</h3>
+           <>
+        <Lead />
+        <Clothes />
+      </>
     </main>
 
   )

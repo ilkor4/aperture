@@ -1,15 +1,17 @@
 @import url(./vendor/normalize.css);
-@import url(./vendor/fonts/poppins.css);
+@import url(./vendor/fonts/fonts.css);
 
 body {
   margin: 0;
+  background-color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --main-color: #C9B7A7;;
-  --bg-color: #F4F1EC;
-  --text-color: #77746F;
-  /*--font-family: 'SF Pro Display';*/
-  --font-size-large: 36px;
-  --font-size-medium: 18px;
+  --main-color: #ffffff;;
+  --bg-color: #000000;
+  --text-color: #C0C0C0;
+  --font-family: 'Inter','Helvetica Neue', Arial, sans-serif;
+  --font-size-extra-large: 54px;
+  --font-size-large: 40px;
+  --font-size-medium: 16px;
   --font-size-small: 14px;
 }
