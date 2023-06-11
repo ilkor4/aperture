@@ -6,12 +6,12 @@ import About from './About';
 import Clients from './Clients';
 import '../styles/Main.css';
 
-export default function Main() {
+export default function Main(props) {
   return(
     <main className="content">
            <>
         <Lead />
-        <Clothes />
+        <Clothes  handleOpenPopup={props.handleOpenPopup}/>
         <About />
         <Clients />
       </>

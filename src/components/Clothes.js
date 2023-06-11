@@ -4,15 +4,15 @@ import { cardsArray } from "../utils/constants";
 import Card from "./Card";
 import '../styles/Clothes.css';
 
-export default function Clothes () {
+export default function Clothes (props) {
   return (
-    <section class="clothes">
-      <h2 class="clothes__title">Что мы делаем?</h2>
-      <p class="clothes__subtitle">Наша студия специализируется на базовых элементах.</p>
-      <ul class="cards">
+    <section className="clothes">
+      <h2 className="clothes__title">Что мы делаем?</h2>
+      <p className="clothes__subtitle">Наша студия специализируется на базовых элементах.</p>
+      <ul className="cards">
       {cardsArray.map((item, index) => {
           return(
-           <Card card={item} index={index}/>
+           <Card card={item} index={index} handleOpenPopup={props.handleOpenPopup} key={index}/>
           );
       })
       }
