@@ -1,5 +1,14 @@
 /* Стили для компонента одежда */
 
+.clothes {
+  max-width: 100%;
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
 .cards {
   display: grid;
   margin: 0 auto;
@@ -8,4 +17,24 @@
   column-gap: 16px;
   row-gap: 16px;
   font-family: var(--font-family);
+}
+
+.clothes__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: var(--font-size-large);
+  line-height: 1.21;
+  color: var(--main-color);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.clothes__subtitle {
+  max-width: 400px;
+  margin: 0 0 30px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: var(--text-color);
 }

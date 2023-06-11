@@ -2,6 +2,8 @@
 
 import Lead from './Lead';
 import Clothes from './Clothes';
+import About from './About';
+import Clients from './Clients';
 import '../styles/Main.css';
 
 export default function Main() {
@@ -10,6 +12,8 @@ export default function Main() {
            <>
         <Lead />
         <Clothes />
+        <About />
+        <Clients />
       </>
     </main>
 
