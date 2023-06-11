@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/aperture/static/css/main.0f766ed7.css",
+    "main.css": "/aperture/static/css/main.c1aadbc6.css",
     "main.js": "/aperture/static/js/main.74e9ed56.js",
+    "static/media/lead.png": "/aperture/static/media/lead.e9e05e3f08d5ed0a8c4a.png",
     "static/media/About.png": "/aperture/static/media/About.f74192dacf2e72c9b1d2.png",
     "static/media/sweater.png": "/aperture/static/media/sweater.6bececbf922acfe04585.png",
     "static/media/t-shirt.png": "/aperture/static/media/t-shirt.90e1729ffa27fd96c533.png",
-    "static/media/lead.png": "/aperture/static/media/lead.c84a70b1f87a5851c43a.png",
     "static/media/trousers.png": "/aperture/static/media/trousers.2e47a8aef53b95c15805.png",
     "static/media/shorts.png": "/aperture/static/media/shorts.b39395415425d6d6cf6c.png",
     "static/media/Inter-Bold.woff?v=3.19": "/aperture/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
@@ -17,11 +17,11 @@
     "static/media/Aperture.svg": "/aperture/static/media/Aperture.f1090fde345796abb705497811140bbc.svg",
     "static/media/Decor.svg": "/aperture/static/media/Decor.83d5bfd43eee45018db62e9eedc67ebe.svg",
     "index.html": "/aperture/index.html",
-    "main.0f766ed7.css.map": "/aperture/static/css/main.0f766ed7.css.map",
+    "main.c1aadbc6.css.map": "/aperture/static/css/main.c1aadbc6.css.map",
     "main.74e9ed56.js.map": "/aperture/static/js/main.74e9ed56.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f766ed7.css",
+    "static/css/main.c1aadbc6.css",
     "static/js/main.74e9ed56.js"
   ]
 }
