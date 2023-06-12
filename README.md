@@ -7,8 +7,8 @@
 <h2>Работа выполнена с использованием технологий:</h2>
 <ul>
   <li><p>HTML</p></li>
-  <li><p>CSS></p></li>
-  <li><p>JavaScript></p></li>
+  <li><p>CSS</p></li>
+  <li><p>JavaScript</p></li>
   <li><p>Flexbox Layout</p></li>
   <li><p>Grid Layout</p></li>
   <li><p>Файловая структура организована по БЭМ nested</p></li>
