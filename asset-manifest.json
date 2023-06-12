@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.66f69ce0.css",
+    "main.css": "/static/css/main.49d8ef6e.css",
     "main.js": "/static/js/main.9b04c696.js",
     "static/media/lead.png": "/static/media/lead.e9e05e3f08d5ed0a8c4a.png",
     "static/media/About.png": "/static/media/About.f74192dacf2e72c9b1d2.png",
-    "static/media/sweater.png": "/static/media/sweater.6bececbf922acfe04585.png",
     "static/media/t-shirt.png": "/static/media/t-shirt.90e1729ffa27fd96c533.png",
+    "static/media/sweater.png": "/static/media/sweater.393ec894b63005df25d3.png",
     "static/media/trousers.png": "/static/media/trousers.2e47a8aef53b95c15805.png",
     "static/media/shorts.png": "/static/media/shorts.b39395415425d6d6cf6c.png",
     "static/media/Inter-Bold.woff?v=3.19": "/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
@@ -19,11 +19,11 @@
     "index.html": "/index.html",
     "static/media/Vector.svg": "/static/media/Vector.a59b798ceb26414c28ec84e87c574c92.svg",
     "static/media/Close-Icon.svg": "/static/media/Close-Icon.83109067313b063a00f448423b027b70.svg",
-    "main.66f69ce0.css.map": "/static/css/main.66f69ce0.css.map",
+    "main.49d8ef6e.css.map": "/static/css/main.49d8ef6e.css.map",
     "main.9b04c696.js.map": "/static/js/main.9b04c696.js.map"
   },
   "entrypoints": [
-    "static/css/main.66f69ce0.css",
+    "static/css/main.49d8ef6e.css",
     "static/js/main.9b04c696.js"
   ]
 }
