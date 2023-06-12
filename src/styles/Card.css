@@ -1,0 +1,87 @@
+@keyframes rotation {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.cards__item {
+  padding: 0 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: transform 1s ease;
+}
+
+.cards__item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0  7px white;
+}
+
+.cards__item:nth-of-type(1){
+  background-image: url(../images/clothes/t-shirt.png);
+
+}
+
+.cards__item:nth-of-type(2){
+  background-image: url(../images//clothes/shorts.png);
+
+}
+.cards__item:nth-of-type(3){
+  background-image: url(../images/clothes/sweater.png);
+
+}
+.cards__item:nth-of-type(4){
+  background-image: url(../images//clothes/trousers.png);
+}
+
+.cards__title {
+  font-weight: 400;
+  font-size: var(--font-size-small);
+  line-height: 1.21;
+  letter-spacing: 2px;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.cards__text {
+  font-weight: 400;
+  font-size: var(--font-size-small);
+  line-height: 1.41;
+  color: var(--text-color);
+  margin: 10px 0 16px 0;
+  min-height: 80px;
+}
+
+.cards__button {
+  padding: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: var(--font-size-small);
+  line-height: 1.21;
+  cursor: pointer;
+  border-radius: 14px;
+  background-color: white;
+  width: 140px;
+  height: 42px;
+  transition: transform .6s ease-in-out;
+}
+
+.cards__button:hover {
+  transform: scale(1.1);
+}
+
+.cards__button-image {
+  margin: 0 12px 0 10px;
+}
+
+.rotate {
+  animation: rotation 2s infinite forwards linear;
+}

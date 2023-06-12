@@ -1,0 +1,73 @@
+/* Стили для шапки сайта */
+
+.header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  min-height: 40px;
+  background-color: #181818;
+  padding: 10px 5%;
+  box-sizing: border-box;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.menu {
+  font-family: var(--font-family);
+  font-weight: 300;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+}
+
+.menu__link {
+  color: var(--main-color);
+  font-size: var(--font-size-medium);
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.21;
+  cursor: pointer;
+}
+
+.menu__link:hover {
+  opacity: .4;
+  transition: opacity .6s ease;
+}
+
+.menu__button {
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: var(--font-size-medium);
+  line-height: 1.21;
+  cursor: pointer;
+  border-radius: 14px;
+  background-color: white;
+  width: 155px;
+  height: 42px;
+  transition: transform .6s ease-in-out;
+}
+
+.menu__button:hover {
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 768px) {
+  .header__menu {
+    display: none;
+  }
+}

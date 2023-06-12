@@ -1,0 +1,56 @@
+/* Стили для секция вступления - первого блок, который знакомит посетителя с компанией */
+
+.lead {
+  width: 100%;
+  min-height: 710px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  background-image: url(../../src/images/lead.png);
+  font-family: var(--font-family);
+  object-fit: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.description {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: center;
+  width: 600px;
+  box-sizing: border-box;
+  padding: 20px 10px 10px;
+}
+
+.description__subtitle {
+  margin: 0 0 -20px;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: var(--font-size-small);
+  line-height: 1.21;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.description__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: var(--font-size-extra-large);
+  line-height: 1.21;
+  color: var(--main-color);
+}
+
+.description__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: var(--font-size-small);
+  line-height: 1.41;
+  letter-spacing: 1.2;
+  color: var(--text-color);
+}
+
