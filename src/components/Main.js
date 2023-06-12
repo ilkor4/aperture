@@ -11,7 +11,7 @@ export default function Main(props) {
     <main className="content">
            <>
         <Lead />
-        <Clothes  handleOpenPopup={props.handleOpenPopup}/>
+        <Clothes  handleOpenPopup={props.handleOpenPopup} setType={props.setType}/>
         <About />
         <Clients />
       </>

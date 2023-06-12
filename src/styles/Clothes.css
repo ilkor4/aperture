@@ -12,6 +12,8 @@
 .cards {
   display: grid;
   margin: 0 auto;
+  padding: 0;
+  list-style: none;
   grid-template-rows: 576px 576px;
   grid-template-columns: 600px 600px ;
   column-gap: 16px;
@@ -37,4 +39,12 @@
   line-height: 30px;
   font-weight: 300;
   color: var(--text-color);
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    padding: 0 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 400px);
+  }
 }

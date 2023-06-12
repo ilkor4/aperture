@@ -5,6 +5,11 @@ import Card from "./Card";
 import '../styles/Clothes.css';
 
 export default function Clothes (props) {
+  const handleOpenPopup = (index) => {
+    props.handleOpenPopup(true);
+    props.setType(index);
+  }
+
   return (
     <section className="clothes">
       <h2 className="clothes__title">Что мы делаем?</h2>
@@ -12,7 +17,7 @@ export default function Clothes (props) {
       <ul className="cards">
       {cardsArray.map((item, index) => {
           return(
-           <Card card={item} index={index} handleOpenPopup={props.handleOpenPopup} key={index}/>
+           <Card card={item} handleOpenPopup={() => handleOpenPopup(index)} key={index}/>
           );
       })
       }

@@ -82,6 +82,6 @@
   margin: 0 12px 0 10px;
 }
 
-.сards__button:hover .rotate {
+.rotate {
   animation: rotation 2s infinite forwards linear;
 }
