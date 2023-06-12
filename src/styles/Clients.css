@@ -33,8 +33,10 @@
 }
 
 .logo-content {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   width: 90%;
-  height: 158px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -49,4 +51,13 @@
 .logo-content__logo:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+  .logo-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
 }

@@ -19,7 +19,7 @@
 
 .popup__container {
   margin-top: 100px;
-  min-height: 330px;
+  min-height: 230px;
   width: 700px;
   border-radius: 10px;
   background-color: white;
@@ -32,11 +32,19 @@
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
 }
 
+.popup__container_type_contact {
+  width: 400px;
+}
+
 .popup__fieldset {
   border: none;
   padding: 0;
   margin: 0;
   width: 629px;
+}
+
+.popup__fieldset_type_contact {
+  width: 330px;
 }
 
 .popup__button-close {
@@ -88,6 +96,10 @@
   margin-bottom: 30px;
 }
 
+.popup__input_type_contact {
+  margin-bottom: 50px;
+}
+
 .popup__vector {
   position: absolute;
   right: 0;
@@ -118,6 +130,10 @@
   line-height: 22px;
   padding: 0;
   margin: 0 auto;
+}
+
+.popup__submit_type_contact {
+  width: 100%;
 }
 
 .popup__submit:hover {
@@ -164,3 +180,4 @@
   font-weight: bold;
   background: rgba(0, 0, 0, 0.05);
 }
+

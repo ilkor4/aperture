@@ -69,3 +69,24 @@
 .second-column:hover {
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 768px) {
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .first-column {
+    width: 80%;
+  }
+
+  .second-column {
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 1s ease;
+  }
+}
