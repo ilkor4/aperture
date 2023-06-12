@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/aperture/static/css/main.821a417e.css",
-    "main.js": "/aperture/static/js/main.42c7e953.js",
-    "static/media/lead.png": "/aperture/static/media/lead.e9e05e3f08d5ed0a8c4a.png",
-    "static/media/About.png": "/aperture/static/media/About.f74192dacf2e72c9b1d2.png",
-    "static/media/sweater.png": "/aperture/static/media/sweater.6bececbf922acfe04585.png",
-    "static/media/t-shirt.png": "/aperture/static/media/t-shirt.90e1729ffa27fd96c533.png",
-    "static/media/trousers.png": "/aperture/static/media/trousers.2e47a8aef53b95c15805.png",
-    "static/media/shorts.png": "/aperture/static/media/shorts.b39395415425d6d6cf6c.png",
-    "static/media/Inter-Bold.woff?v=3.19": "/aperture/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
-    "static/media/Inter-Black.woff?v=3.19": "/aperture/static/media/Inter-Black.c6938660eec019fefd68.woff",
-    "static/media/Inter-Regular.woff?v=3.19": "/aperture/static/media/Inter-Regular.8c206db99195777c6769.woff",
-    "static/media/Inter-Bold.woff2?v=3.19": "/aperture/static/media/Inter-Bold.ec64ea577b0349e055ad.woff2",
-    "static/media/Inter-Black.woff2?v=3.19": "/aperture/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
-    "static/media/Inter-Regular.woff2?v=3.19": "/aperture/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
-    "static/media/Aperture.svg": "/aperture/static/media/Aperture.f1090fde345796abb705497811140bbc.svg",
-    "static/media/Decor.svg": "/aperture/static/media/Decor.83d5bfd43eee45018db62e9eedc67ebe.svg",
-    "index.html": "/aperture/index.html",
-    "static/media/Vector.svg": "/aperture/static/media/Vector.a59b798ceb26414c28ec84e87c574c92.svg",
-    "static/media/Close-Icon.svg": "/aperture/static/media/Close-Icon.83109067313b063a00f448423b027b70.svg",
-    "main.821a417e.css.map": "/aperture/static/css/main.821a417e.css.map",
-    "main.42c7e953.js.map": "/aperture/static/js/main.42c7e953.js.map"
+    "main.css": "/static/css/main.66f69ce0.css",
+    "main.js": "/static/js/main.9b04c696.js",
+    "static/media/lead.png": "/static/media/lead.e9e05e3f08d5ed0a8c4a.png",
+    "static/media/About.png": "/static/media/About.f74192dacf2e72c9b1d2.png",
+    "static/media/sweater.png": "/static/media/sweater.6bececbf922acfe04585.png",
+    "static/media/t-shirt.png": "/static/media/t-shirt.90e1729ffa27fd96c533.png",
+    "static/media/trousers.png": "/static/media/trousers.2e47a8aef53b95c15805.png",
+    "static/media/shorts.png": "/static/media/shorts.b39395415425d6d6cf6c.png",
+    "static/media/Inter-Bold.woff?v=3.19": "/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
+    "static/media/Inter-Black.woff?v=3.19": "/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff?v=3.19": "/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Bold.woff2?v=3.19": "/static/media/Inter-Bold.ec64ea577b0349e055ad.woff2",
+    "static/media/Inter-Black.woff2?v=3.19": "/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2?v=3.19": "/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/Aperture.svg": "/static/media/Aperture.f1090fde345796abb705497811140bbc.svg",
+    "static/media/Decor.svg": "/static/media/Decor.83d5bfd43eee45018db62e9eedc67ebe.svg",
+    "index.html": "/index.html",
+    "static/media/Vector.svg": "/static/media/Vector.a59b798ceb26414c28ec84e87c574c92.svg",
+    "static/media/Close-Icon.svg": "/static/media/Close-Icon.83109067313b063a00f448423b027b70.svg",
+    "main.66f69ce0.css.map": "/static/css/main.66f69ce0.css.map",
+    "main.9b04c696.js.map": "/static/js/main.9b04c696.js.map"
   },
   "entrypoints": [
-    "static/css/main.821a417e.css",
-    "static/js/main.42c7e953.js"
+    "static/css/main.66f69ce0.css",
+    "static/js/main.9b04c696.js"
   ]
 }
