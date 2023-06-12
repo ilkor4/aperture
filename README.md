@@ -50,10 +50,9 @@
 ---
 
 
-Адрес репозитория: https://github.com/ilkor4/aperture.git
-
 ## Ссылки на проект
 
-Frontend https://aperturestudio.ru
-Backend https://github.com/ilkor4/aperture/tree/main/backend
+- Адрес репозитория: https://github.com/ilkor4/aperture.git
+- Frontend https://aperturestudio.ru
+- Backend https://github.com/ilkor4/aperture/tree/main/backend
 
