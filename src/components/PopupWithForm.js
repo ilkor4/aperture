@@ -17,7 +17,7 @@ const orderFetch = (url, options) => {
 }
 
 const typeList = ['Футболка', 'Шорты', 'Кофта', 'Штаны'];
-const fabricList = ['Мех', 'Картон', 'Хлопок', 'Лён'];
+const fabricList = ['Мех', 'Флис', 'Хлопок', 'Лён'];
 
 export default function PopupWithForm(props) {
   const [name, setName] = React.useState("");
@@ -66,7 +66,7 @@ export default function PopupWithForm(props) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        name: name,
+        firstName: name,
         phoneNumber: phone,
         type: typeList[props.type],
         fabrics: fabricList[fabric],
@@ -121,11 +121,11 @@ export default function PopupWithForm(props) {
               {props.type === 0 || props.type === 2 ?
                 <>
                   <input type="number" className="popup__input" required placeholder="Обхват груди" value={height || ''} onChange={handleChangeHeight}/>
-                  <input type="number" className="popup__input" required placeholder="Длина Рукавов" value={sleeve || ''} onChange={handleChangeSleeve}/>
+                  <input type="number" className="popup__input" required placeholder="Длина рукавов" value={sleeve || ''} onChange={handleChangeSleeve}/>
                 </> :
                 <>
                   <input type="number" className="popup__input" required placeholder="Талия" value={waist || ''} onChange={handleChangeWaist}/>
-                  <input type="number" className="popup__input" required placeholder="Длина штанов" value={trousersLength || ''} onChange={handleChangesTrousers}/>
+                  <input type="number" className="popup__input" required placeholder="Длина" value={trousersLength || ''} onChange={handleChangesTrousers}/>
                   <input type="number"className="popup__input" required placeholder="Обхват ягодиц" value={booty || ''} onChange={handleChangeBooty}/>
                 </>
               }
